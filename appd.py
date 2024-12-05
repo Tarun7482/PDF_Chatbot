@@ -112,7 +112,7 @@ def main():
     
     if user_input:
         # Configure the generative AI model
-        genai.configure(api_key="AIzaSyANyn3ncz--b8t3_xbATjBP0QLEDYUWNXA")  # Load API key
+        genai.configure(api_key="your_api_key")  # Load API key
         
         model = genai.GenerativeModel("gemini-1.5-flash")
         
